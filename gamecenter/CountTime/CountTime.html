@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time Game</title>
+  <link rel="stylesheet" href="CountTime.css">
+</head>
+<body>
+  <header><h1><pre>WELCOME TO RAJU'S TIME 
+  COUNTING GAME!</pre></h1></header>
+  <div class="game-container">
+    <h1>Time Game</h1>
+    <p id="instructions">Press "Start" and try to stop the timer exactly at 5000ms!</p>
+    <div>
+      <button id="start-btn">Start</button>
+      <button id="stop-btn" disabled>Stop</button>
+    </div>
+    <marquee id="scroll"  behavior="alternate" direction="left" scrollamount="10"></marquee>
+    <p id="result"></p>
+  </div>
+  <script src="CountTime.js"></script>
+</body>
+</html>

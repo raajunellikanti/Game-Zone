@@ -1,0 +1,82 @@
+body {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 50px;
+    background-color: rgba(168, 49, 49, 0.408);
+  }
+  body::before{
+    background-color: rgba(26, 9, 102, 0.2);
+  }
+  header>h1 {
+    color: #0d0909;
+  }
+  
+  .game-container {
+    margin: 100px auto;
+    max-width: 500px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 10px rgba(26, 9, 102, 0.5);
+    background-color: rgba(37, 10, 117, 0.955);
+  }
+  
+  h1 {
+    color:red;
+  }
+  
+  #instructions {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #start-btn:hover {
+    background-color: #0d612c;
+    box-shadow:5px 5px 10px green ;
+  }
+  
+  #start-btn {
+    background-color: #28a745;
+    color: white;
+  }
+
+  #stop-btn:hover{
+    background-color: #600a12;
+    box-shadow:5px 5px 10px red ;
+  }
+  
+  #stop-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  #scroll{
+    height: 30px;
+    width: 60%;
+    padding-top: 15px;
+    /* border-left:2px solid white ; */
+    /* border-right:2px solid white ; */
+  }
+  
+  #result {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  

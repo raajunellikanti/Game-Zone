@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number Guessing Game</title>
+  <link rel="stylesheet" href="GuessNumber.css">
+</head>
+<body>
+  <header><h1><pre>WELCOME TO RAJU'S GUESS 
+NUMBER GAME!</pre></h1></header>
+  <div class="container">
+    <h1>Guess the Number!</h1>
+    <p id="caption">Guess a number between <strong>1</strong> and <strong>100</strong>.</p>
+    <input type="number" id="guessInput" placeholder="Enter your guess" min="1" max="100">
+    <button id="guessBtn">Guess</button>
+    <p id="feedback"></p>
+    <p id="attemt_label">Attempts: <span id="attempts">0</span></p>
+    <button id="ReStart">ReStart</button>
+  </div>
+  <script src="GuessNumber.js"></script>
+</body>
+</html>
